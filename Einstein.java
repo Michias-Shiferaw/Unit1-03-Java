@@ -5,13 +5,14 @@ public class Einstein {
   public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       System.out.println("Please enter a mass (kg).");
+      
       //place the user's input in a specified variable
       double mass1 = input.nextDouble();
 
      System.out.println("Please enter a mass (kg).");
      //input
      Scanner wordScanner = new Scanner(System.in);
-     //final double mass1 = wordScanner.nextDouble();
+    
      double speedOfLight = (299792458);
      
      //process
