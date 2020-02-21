@@ -1,3 +1,4 @@
+//Scan all primitive data types
 import java.util.Scanner;
 /** 
  * This program finds e in e=mc^2 given mass.
@@ -27,7 +28,7 @@ public class Einstein {
         //Recognize a constant
         double speedOfLight = (299792458);
      
-        //process of calulating the energy used and also converting into Kiloton bombs
+        //process of calculating the energy used and also converting into Kiloton bombs
         final double energy = mass * Math.pow(299792458,2);
         final double kilotonE =(int)( energy * 0.00000000000023901);
      
